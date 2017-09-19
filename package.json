@@ -1,0 +1,37 @@
+{
+  "name": "connect-server",
+  "version": "1.0.0",
+  "description": "services connect server",
+  "main": "connect.js",
+  "scripts": {
+    "dev": "nodemon connect.js",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enmaso/connect-server.git"
+  },
+  "author": "Enmaso, Inc.",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/enmaso/connect-server/issues"
+  },
+  "homepage": "https://github.com/enmaso/connect-server#readme",
+  "dependencies": {
+    "aws-sdk": "2.118.0",
+    "body-parser": "1.18.1",
+    "box-node-sdk": "1.9.0",
+    "connect-redis": "3.3.0",
+    "dotenv": "4.0.0",
+    "express": "4.15.4",
+    "express-session": "1.15.5",
+    "mongoose": "4.11.12",
+    "morgan": "1.8.2",
+    "redis": "2.8.0",
+    "request": "2.82.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.12.1",
+    "standard": "10.0.3"
+  }
+}
